@@ -1,0 +1,216 @@
+1. Autenticazione e gestione account
+ID	User Story
+US-001	Come proprietario, voglio effettuare il login con le mie credenziali, così da accedere in sicurezza al gestionale.
+US-002	Come nuovo proprietario, voglio registrare un account, così da poter utilizzare WASHLY per gestire la mia lavanderia.
+US-003	Come utente, voglio recuperare la mia password dimenticata, così da poter nuovamente accedere al gestionale.
+US-004	Come utente, voglio modificare la mia password, così da mantenere sicuro il mio account.
+US-005	Come utente, voglio effettuare il logout, così da impedire l'accesso al mio account da un dispositivo condiviso.
+US-006	Come proprietario, voglio modificare i miei dati personali e aziendali, così da mantenere aggiornate le informazioni del mio account.
+US-007	Come amministratore, voglio attivare l'autenticazione a due fattori, così da aumentare la sicurezza degli account.
+US-008	Come utente, voglio visualizzare le mie sessioni attive, così da poter individuare e revocare eventuali accessi indesiderati.
+
+2. Utenti, ruoli e permessi
+ID	User Story
+US-009	Come proprietario, voglio creare nuovi utenti, così da permettere ai miei collaboratori di utilizzare WASHLY.
+US-010	Come proprietario, voglio assegnare un ruolo a ogni utente, così da definire quali funzionalità può utilizzare.
+US-011	Come amministratore, voglio configurare i permessi dei diversi ruoli, così da controllare l'accesso alle informazioni.
+US-012	Come manager, voglio vedere solamente i punti vendita che mi sono stati assegnati, così da lavorare sul mio perimetro operativo.
+US-013	Come tecnico, voglio accedere alle informazioni tecniche dei macchinari, così da poter gestire gli interventi di manutenzione.
+US-014	Come proprietario, voglio disattivare un utente, così da revocargli immediatamente l'accesso al gestionale.
+US-015	Come amministratore, voglio visualizzare lo storico delle attività degli utenti, così da sapere chi ha effettuato determinate operazioni.
+
+3. Dashboard
+ID	User Story
+US-016	Come proprietario, voglio visualizzare una dashboard generale, così da avere una panoramica immediata della mia lavanderia.
+US-017	Come proprietario, voglio vedere gli incassi del giorno, così da monitorare in tempo reale l'andamento economico.
+US-018	Come proprietario, voglio vedere lo stato dei macchinari, così da sapere quali sono disponibili, occupati o in errore.
+US-019	Come proprietario, voglio visualizzare gli alert principali, così da poter intervenire rapidamente sui problemi.
+US-020	Come proprietario, voglio visualizzare i principali KPI, così da valutare rapidamente le performance del business.
+US-021	Come proprietario, voglio visualizzare grafici sull'andamento dell'attività, così da individuare trend e variazioni.
+US-022	Come proprietario, voglio personalizzare la dashboard, così da visualizzare prioritariamente gli indicatori più importanti per me.
+
+4. Gestione macchinari
+ID	User Story
+US-023	Come proprietario, voglio registrare un nuovo macchinario, così da inserirlo nella gestione della lavanderia.
+US-024	Come proprietario, voglio visualizzare l'anagrafica di ogni macchina, così da conoscere le caratteristiche e informazioni associate.
+US-025	Come proprietario, voglio vedere lo stato attuale di ogni macchinario, così da sapere se è disponibile, occupato, terminato o in errore.
+US-026	Come gestore, voglio visualizzare il ciclo attualmente in corso, così da sapere quanto manca al termine.
+US-027	Come proprietario, voglio visualizzare lo storico dei cicli, così da analizzare l'utilizzo della macchina nel tempo.
+US-028	Come proprietario, voglio visualizzare il numero di cicli effettuati, così da misurare l'utilizzo del macchinario.
+US-029	Come proprietario, voglio configurare i prezzi dei programmi, così da adattare il listino alle mie esigenze.
+US-030	Come proprietario, voglio configurare i programmi disponibili, così da gestire i servizi offerti dalla lavanderia.
+US-031	Come gestore, voglio mettere una macchina fuori servizio, così da impedire che venga utilizzata quando presenta un problema.
+US-032	Come proprietario, voglio consultare lo storico degli eventi della macchina, così da ricostruirne il comportamento nel tempo.
+US-033	Come gestore, voglio effettuare operazioni da remoto sui macchinari compatibili, così da ridurre la necessità di recarmi fisicamente nel punto vendita.
+
+5. IoT e monitoraggio remoto
+ID	User Story
+US-034	Come proprietario, voglio collegare i macchinari a WASHLY, così da monitorarli centralmente.
+US-035	Come proprietario, voglio ricevere i dati di telemetria dei macchinari, così da conoscere il loro stato operativo.
+US-036	Come gestore, voglio ricevere gli eventi generati dai macchinari, così da essere informato delle attività e degli errori.
+US-037	Come proprietario, voglio sapere se un macchinario è offline, così da poter verificare tempestivamente la connessione.
+US-038	Come proprietario, voglio ricevere un alert quando una macchina entra in errore, così da poter intervenire rapidamente.
+US-039	Come proprietario, voglio ricevere una notifica quando un dispositivo perde la connessione, così da distinguere un problema tecnico da una semplice assenza di attività.
+
+6. Incassi e pagamenti
+ID	User Story
+US-040	Come proprietario, voglio visualizzare gli incassi in tempo reale, così da monitorare l'andamento economico della lavanderia.
+US-041	Come proprietario, voglio consultare lo storico delle transazioni, così da poter verificare tutte le operazioni economiche.
+US-042	Come proprietario, voglio distinguere gli incassi per metodo di pagamento, così da analizzare la composizione dei ricavi.
+US-043	Come proprietario, voglio visualizzare gli incassi per macchinario, così da capire quanto genera ogni macchina.
+US-044	Come proprietario, voglio visualizzare gli incassi per punto vendita, così da confrontare le performance delle diverse sedi.
+US-045	Come gestore, voglio registrare e consultare i rimborsi, così da mantenere traccia delle somme restituite ai clienti.
+US-046	Come proprietario, voglio riconciliare transazioni e incassi, così da individuare eventuali differenze.
+US-047	Come gestore, voglio effettuare la chiusura giornaliera, così da avere un riepilogo degli incassi della giornata.
+
+7. Business Intelligence e KPI
+ID	User Story
+US-048	Come proprietario, voglio visualizzare il fatturato per periodo, così da monitorare l'andamento economico.
+US-049	Come proprietario, voglio conoscere l'incasso medio per transazione, così da analizzare il valore medio generato dai clienti.
+US-050	Come proprietario, voglio conoscere il numero di cicli effettuati, così da misurare il volume di utilizzo della lavanderia.
+US-051	Come proprietario, voglio conoscere il tasso di utilizzo di ogni macchina, così da individuare i macchinari più e meno utilizzati.
+US-052	Come proprietario, voglio confrontare le performance dei macchinari, così da identificare differenze di utilizzo e ricavi.
+US-053	Come proprietario, voglio analizzare le fasce orarie, così da capire quando la lavanderia registra maggiore domanda.
+US-054	Come proprietario, voglio confrontare diversi periodi, così da individuare variazioni delle performance.
+US-055	Come proprietario, voglio analizzare ricavi e costi, così da conoscere la marginalità della lavanderia.
+US-056	Come proprietario, voglio calcolare il punto di pareggio, così da sapere quale livello di ricavi è necessario per coprire i costi.
+US-057	Come proprietario, voglio stimare il ritorno economico dei macchinari, così da valutare le loro performance finanziarie.
+
+8. Multi-store e franchising
+ID	User Story
+US-058	Come proprietario, voglio creare più punti vendita, così da gestire l'intera rete da un unico account.
+US-059	Come proprietario, voglio visualizzare una dashboard aggregata, così da avere una visione complessiva della mia attività.
+US-060	Come proprietario, voglio accedere alla dashboard di ogni singola sede, così da analizzarne le performance.
+US-061	Come franchisor, voglio confrontare i punti vendita, così da individuare differenze nelle performance della rete.
+US-062	Come franchisor, voglio generare report consolidati, così da analizzare l'intera rete.
+US-063	Come franchisor, voglio assegnare utenti a specifiche sedi, così da controllare l'accesso ai dati.
+US-064	Come franchisee, voglio visualizzare i dati della mia sede, così da gestire autonomamente il mio punto vendita.
+
+9. CRM e gestione clienti
+ID	User Story
+US-065	Come gestore, voglio visualizzare l'anagrafica dei clienti, così da conoscere gli utenti che utilizzano il servizio.
+US-066	Come gestore, voglio visualizzare il profilo di un cliente, così da consultare le informazioni relative alla sua attività.
+US-067	Come proprietario, voglio visualizzare lo storico degli acquisti di un cliente, così da analizzarne il comportamento.
+US-068	Come proprietario, voglio segmentare i clienti, così da creare gruppi con caratteristiche o comportamenti simili.
+US-069	Come proprietario, voglio identificare i clienti inattivi, così da poter creare iniziative per riportarli nella lavanderia.
+US-070	Come proprietario, voglio individuare i clienti più frequenti, così da poterli coinvolgere in programmi di fidelizzazione.
+
+10. App / Area cliente
+ID	User Story
+US-071	Come cliente, voglio registrarmi a WASHLY, così da poter utilizzare i servizi digitali della lavanderia.
+US-072	Come cliente, voglio cercare una lavanderia, così da trovare il punto vendita più adatto alle mie esigenze.
+US-073	Come cliente, voglio vedere la disponibilità delle macchine, così da sapere se posso effettuare subito un ciclo.
+US-074	Come cliente, voglio vedere i prezzi dei servizi, così da conoscere il costo prima dell'utilizzo.
+US-075	Come cliente, voglio pagare digitalmente, così da poter utilizzare la lavanderia senza necessariamente utilizzare contanti.
+US-076	Come cliente, voglio visualizzare il mio storico utilizzi, così da tenere traccia dei miei cicli.
+US-077	Come cliente, voglio avere un wallet digitale, così da utilizzare un credito prepagato.
+US-078	Come cliente, voglio ricaricare il mio wallet, così da avere credito disponibile per i successivi utilizzi.
+US-079	Come cliente, voglio ricevere notifiche, così da essere informato sulle attività e sulle offerte della lavanderia.
+
+11. Marketing e fidelizzazione
+ID	User Story
+US-080	Come proprietario, voglio creare coupon, così da incentivare i clienti a utilizzare la lavanderia.
+US-081	Come proprietario, voglio creare promozioni temporali, così da aumentare la domanda nelle fasce orarie meno frequentate.
+US-082	Come proprietario, voglio creare sconti personalizzati, così da proporre offerte mirate a specifici clienti.
+US-083	Come proprietario, voglio creare un programma loyalty, così da incentivare i clienti a tornare.
+US-084	Come proprietario, voglio assegnare cashback, così da premiare i clienti attraverso credito riutilizzabile.
+US-085	Come proprietario, voglio inviare notifiche promozionali, così da comunicare direttamente con i clienti.
+US-086	Come proprietario, voglio creare campagne marketing, così da promuovere specifici servizi o offerte.
+US-087	Come proprietario, voglio creare campagne per clienti inattivi, così da incentivare il loro ritorno.
+US-088	Come proprietario, voglio creare un programma referral, così da incentivare i clienti a portare nuovi utenti.
+
+12. Convenzioni B2B
+ID	User Story
+US-089	Come proprietario, voglio registrare un'azienda convenzionata, così da gestire i rapporti commerciali B2B.
+US-090	Come proprietario, voglio creare codici convenzione, così da identificare i clienti appartenenti a un'azienda partner.
+US-091	Come proprietario, voglio creare listini dedicati, così da applicare condizioni economiche specifiche alle aziende convenzionate.
+US-092	Come azienda convenzionata, voglio assegnare un budget ai miei dipendenti, così da permettere loro di utilizzare il servizio.
+US-093	Come proprietario, voglio visualizzare i consumi di una convenzione, così da monitorare l'utilizzo del servizio da parte dell'azienda.
+
+13. Manutenzione
+ID	User Story
+US-094	Come tecnico, voglio visualizzare lo storico delle manutenzioni, così da conoscere gli interventi effettuati su ogni macchina.
+US-095	Come gestore, voglio programmare una manutenzione, così da evitare di dimenticare gli interventi periodici.
+US-096	Come tecnico, voglio visualizzare le manutenzioni in scadenza, così da organizzare gli interventi.
+US-097	Come gestore, voglio registrare un guasto, così da avviare la gestione del problema.
+US-098	Come gestore, voglio aprire un ticket tecnico, così da richiedere un intervento.
+US-099	Come proprietario, voglio assegnare un ticket a un tecnico, così da organizzare la risoluzione del problema.
+US-100	Come tecnico, voglio aggiornare lo stato di un ticket, così da comunicare l'avanzamento dell'intervento.
+US-101	Come proprietario, voglio registrare i costi di manutenzione, così da analizzare l'impatto economico dei guasti.
+US-102	Come proprietario, voglio registrare i ricambi utilizzati, così da mantenere uno storico tecnico completo.
+
+14. Manutenzione predittiva e anomalie
+ID	User Story
+US-103	Come proprietario, voglio ricevere una segnalazione quando una macchina presenta comportamenti anomali, così da poterla controllare prima di un possibile guasto.
+US-104	Come proprietario, voglio analizzare lo storico dei comportamenti di una macchina, così da individuare pattern anomali.
+US-105	Come proprietario, voglio visualizzare un indicatore dello stato di salute di una macchina, così da individuare quelle che richiedono maggiore attenzione.
+US-106	Come gestore, voglio ricevere suggerimenti sulla manutenzione, così da poter programmare gli interventi preventivamente.
+US-107	Come proprietario, voglio ricevere un avviso anticipato di potenziali problemi, così da ridurre il rischio di fermi macchina.
+
+15. Monitoraggio consumi
+ID	User Story
+US-108	Come proprietario, voglio monitorare il consumo energetico della lavanderia, così da conoscere i costi associati all'energia.
+US-109	Come proprietario, voglio monitorare il consumo di acqua, così da controllare una delle principali risorse utilizzate dall'attività.
+US-110	Come proprietario, voglio visualizzare i consumi per macchina, così da individuare i dispositivi più energivori.
+US-111	Come proprietario, voglio conoscere il consumo medio per ciclo, così da analizzare l'efficienza operativa.
+US-112	Come proprietario, voglio convertire i consumi in costi, così da valutare il loro impatto sulla marginalità.
+US-113	Come proprietario, voglio ricevere alert sui consumi anomali, così da poter verificare tempestivamente eventuali problemi.
+
+16. Sicurezza del punto vendita
+ID	User Story
+US-114	Come proprietario, voglio monitorare gli accessi al locale, così da sapere quando viene aperto o chiuso.
+US-115	Come proprietario, voglio ricevere un alert in caso di apertura anomala, così da poter verificare immediatamente l'evento.
+US-116	Come proprietario, voglio monitorare eventuali perdite d'acqua, così da poter intervenire rapidamente in caso di allagamento.
+US-117	Come proprietario, voglio ricevere un alert in caso di rilevamento di fumo, così da poter attivare tempestivamente le procedure di sicurezza.
+US-118	Come proprietario, voglio monitorare la temperatura del locale, così da individuare condizioni anomale.
+US-119	Come proprietario, voglio consultare lo storico degli eventi di sicurezza, così da poter ricostruire ciò che è accaduto.
+
+17. Report ed esportazioni
+ID	User Story
+US-120	Come proprietario, voglio generare un report giornaliero, così da analizzare l'attività della giornata.
+US-121	Come proprietario, voglio generare report settimanali e mensili, così da monitorare l'andamento del business.
+US-122	Come proprietario, voglio generare report annuali, così da analizzare le performance nel lungo periodo.
+US-123	Come proprietario, voglio esportare i dati in Excel/CSV, così da poterli elaborare con altri strumenti.
+US-124	Come proprietario, voglio esportare i report in PDF, così da poterli condividere o archiviare.
+US-125	Come proprietario, voglio ricevere automaticamente i report via email, così da non doverli generare manualmente.
+
+18. Notifiche e alert
+ID	User Story
+US-126	Come proprietario, voglio ricevere notifiche push, così da essere informato immediatamente sugli eventi importanti.
+US-127	Come proprietario, voglio ricevere notifiche email, così da poter essere informato anche quando non utilizzo il gestionale.
+US-128	Come proprietario, voglio configurare quali eventi generano notifiche, così da ricevere solamente gli alert rilevanti.
+US-129	Come gestore, voglio ricevere un alert per i guasti, così da poter intervenire tempestivamente.
+US-130	Come proprietario, voglio ricevere un alert per anomalie di incasso, così da poter verificare eventuali problemi.
+US-131	Come proprietario, voglio ricevere un alert per manutenzioni in scadenza, così da pianificare gli interventi.
+
+19. Integrazioni
+ID	User Story
+US-132	Come amministratore, voglio configurare le integrazioni con i macchinari, così da collegare l'infrastruttura fisica a WASHLY.
+US-133	Come proprietario, voglio integrare i sistemi di pagamento, così da sincronizzare automaticamente le transazioni.
+US-134	Come proprietario, voglio integrare il POS, così da centralizzare i dati relativi ai pagamenti.
+US-135	Come amministratore, voglio integrare sistemi contabili, così da ridurre l'inserimento manuale dei dati.
+US-136	Come sviluppatore/partner, voglio utilizzare le API di WASHLY, così da integrare applicazioni esterne.
+US-137	Come sistema esterno, voglio ricevere webhook da WASHLY, così da reagire automaticamente agli eventi della piattaforma.
+
+20. Impostazioni
+ID	User Story
+US-138	Come proprietario, voglio configurare i dati della mia azienda, così da mantenere corrette le informazioni organizzative.
+US-139	Come proprietario, voglio configurare i dati dei punti vendita, così da mantenere aggiornata la rete.
+US-140	Come gestore, voglio configurare gli orari di apertura, così da rappresentare correttamente gli orari della lavanderia.
+US-141	Come proprietario, voglio configurare prezzi e servizi, così da adattare WASHLY al modello commerciale della mia lavanderia.
+US-142	Come proprietario, voglio configurare le notifiche, così da personalizzare gli avvisi ricevuti.
+
+21. Audit e tracciabilità
+ID	User Story
+US-143	Come proprietario, voglio sapere chi ha effettuato una modifica, così da mantenere traccia delle attività degli utenti.
+US-144	Come amministratore, voglio consultare lo storico delle modifiche, così da poter ricostruire l'evoluzione delle configurazioni.
+US-145	Come proprietario, voglio consultare lo storico degli accessi, così da monitorare l'utilizzo del gestionale.
+US-146	Come proprietario, voglio consultare lo storico degli eventi dei macchinari, così da analizzare eventuali problemi.
+
+22. Supporto e onboarding
+ID	User Story
+US-147	Come nuovo proprietario, voglio essere guidato nella configurazione iniziale, così da poter iniziare rapidamente a utilizzare WASHLY.
+US-148	Come utente, voglio consultare una knowledge base, così da trovare autonomamente le risposte ai problemi comuni.
+US-149	Come utente, voglio consultare le FAQ, così da trovare rapidamente informazioni sulle funzionalità.
+US-150	Come proprietario, voglio aprire un ticket di assistenza, così da ricevere supporto in caso di problemi.
+US-151	Come proprietario, voglio segnalare un malfunzionamento, così da permettere al team WASHLY di int
